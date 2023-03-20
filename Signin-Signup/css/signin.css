@@ -1,0 +1,83 @@
+body{
+    color:darkgray;
+    font-family: 'Roboto', sans-serif;
+    background-image:url(../img/image1.jpg);
+}
+.form-control{
+    min-height: 40px;
+    box-shadow: none;
+    border-color: #e1e1e1;
+    border-radius: 34px;
+
+}
+.font-control:focus{
+    border-color: #00cb82;
+
+}
+.form-control, .btn{
+    border-radius: 4px;
+
+}
+.form-header{
+    margin: -30px -30px 20px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    background-color:lightgreen;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+}
+.form-header h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-family: 'Pacifico', sans-serif;
+}
+.form-header p{
+    font-size: 16px;
+    line-height: normal;
+    margin: 20px 0 15px;
+    font-family: sans-serif;
+}
+.signin-form{
+    width: 390px;
+    margin: 0 auto;
+    /* padding:30px 0;
+    border: 1px solid ; */
+    
+} 
+.signin-form form{
+    color: #999;
+    border-radius: 4px;
+    border-bottom: 19px;
+    background-color:aliceblue;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signin-form .form-group{
+    margin-bottom: 20px;
+}
+.signin-form label{
+    font-size: 13px;
+    font-weight: normal;
+}
+.signin-form .btn{
+    font-size: 17px;
+    font-weight: bold;
+    background: #00cb82;
+    border: none;
+    min-width: 200px;
+    
+}
+.signin-form .btn:hover, .signup-form .btn:focus{
+    background:#00b073 !important;
+    outline: none;
+}
+.signin-form a{
+    color: #00cb82;
+
+}
+.signin-form a:hover{
+    text-decoration: underline;
+}
+
+
